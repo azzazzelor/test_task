@@ -1,0 +1,29 @@
+{
+  "name": "tast_task",
+  "version": "1.0.0",
+  "description": "test_task ",
+  "main": "server.js",
+  "scripts": {
+    "startServer": "node server.js",
+    "startClient": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azzazzelor/test_task.git"
+  },
+  "keywords": [
+    "node.js",
+    "zmq"
+  ],
+  "author": "Vadim Levunets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azzazzelor/test_task/issues"
+  },
+  "homepage": "https://github.com/azzazzelor/test_task#readme",
+  "dependencies": {
+    "inquirer": "^7.0.1",
+    "sqlite": "^3.0.3",
+    "zeromq": "^6.0.0-beta.5"
+  }
+}
