@@ -31,7 +31,7 @@ let questions = [
     },
     { 
         message: "Enter your password?",
-        type: "input",
+        type: "password",
         name: "passw"
     }
 ];
